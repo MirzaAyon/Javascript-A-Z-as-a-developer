@@ -27,3 +27,5 @@ console.log(isRaining);
 var frndName;
 frndName = "someone";
 console.log(frndName)
+
+console.log(num1 + parseInt(num2))
