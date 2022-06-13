@@ -62,3 +62,19 @@ if (number1 > number2) {
 else {
     console.log("Number1 is small");
 }
+
+
+//simple calculation 4 
+
+var number1 = 1000;
+var number2 = 100;
+
+if (number1 > number2) {
+    console.log("Number1 is big");
+}
+else if (number2 > number1) {
+    console.log("Number2 is big");
+}
+else {
+    console.log("Number1 and Number2 is equal!");
+}
