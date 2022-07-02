@@ -11,3 +11,14 @@ for (var i = 0; i < persons.length; i++) {
     sum = sum + persons[i].salary
 }
 console.log(sum)
+
+// no. 4
+// Write a JavaScript program to check whether a given integer is within 20 of 100
+function isPresent(number) {
+    for (var i = 20; i < 100; i++) {
+        if (i == number) {
+            console.log('present', i)
+        }
+    }
+}
+isPresent(551);
